@@ -1,0 +1,60 @@
+* {
+    background-color: #1e1e2e;
+    text-color: #cba6f7;
+}
+
+mainbox {
+    padding: 20px;
+}
+
+window {
+    background-color: #1e1e2e;
+    border: 4;
+    border-color: #b4befe;
+}
+
+listview {
+    lines: 1;
+    columns: 3;
+}
+
+inputbar {
+    padding:    5px 10px;
+    spacing:    0px ;
+    children:   ["textbox-prompt-colon","entry", "icon-current-entry", "case-indicator"];
+}
+
+icon-current-entry {
+  size: 30px;
+}
+
+entry {
+    text-color:        #f5c2e7;
+    spacing:           0;
+    placeholder-color: Gray;
+    placeholder:       "Take a walk...";
+}
+
+element {
+    padding: 1px ;
+    spacing: 10px ;
+    border:  0;
+    border-radius: 5px;
+}
+
+element selected {
+    background-color: #cdd6f4;
+    text-color: #313244;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+textbox-prompt-colon {
+    margin:     0px 0px ;
+    expand:     false;
+    str:        "   ";
+    text-color: #dbd7d2;
+}

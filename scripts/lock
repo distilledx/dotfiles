@@ -1,0 +1,3 @@
+#!/bin/sh
+
+i3lock -i /home/esad/.config/wallpapers/lockscreen.png -F -p default -e -f -k --indicator --radius 150 --ring-width 3.0 --inside-color=b4befe40 --ring-color=b4befeff --insidever-color=b4befeff --ringver-color=b4befeff --insidewrong-color=f38ba840 --ringwrong-color=f38ba8ff --line-color=00000000 --keyhl-color=f5c2e7ff --bshl-color=f5c2e7ff --separator-color=00000000 --{verif,wrong,modif}-color=1e1e2eff --{layout,time,date,greeter}-color=1e1e2eff --verif-text="QwQ" --wrong-text="no..." --noinput-text="huh?" --{time,date,layout,verif,wrong,greeter}-font="JetBrains Mono NL Regular" --verif-size=18 --pass-{media,screen,power,volume}-keys
