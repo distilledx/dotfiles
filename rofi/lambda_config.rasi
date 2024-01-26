@@ -2,7 +2,7 @@ configuration {
   font:    "JetBrainsMono Nerd Font ExtraLight Italic 12";
   drun-display-format: "{icon} {name}";
   show-icons: true;
-  icon-theme: "WhiteSur-dark";
+  icon-theme: "candy-icons";
 	modi:    "drun,run,window";
 	terminal: "kitty";
 
